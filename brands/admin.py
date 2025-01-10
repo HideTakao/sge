@@ -7,4 +7,5 @@ class BrandAdmin(admin.ModelAdmin):
     search_fields = ('name',)
     list_filter = ('created_at', 'updated_at',)
 
+
 admin.site.register(models.Brand, BrandAdmin)
